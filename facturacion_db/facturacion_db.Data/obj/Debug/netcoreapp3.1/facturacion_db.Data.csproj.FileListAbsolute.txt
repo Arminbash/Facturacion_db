@@ -1,0 +1,10 @@
+C:\Projectos\Facturacion_db\facturacion_db\facturacion_db.Data\bin\Debug\netcoreapp3.1\facturacion_db.Data.deps.json
+C:\Projectos\Facturacion_db\facturacion_db\facturacion_db.Data\bin\Debug\netcoreapp3.1\facturacion_db.Data.dll
+C:\Projectos\Facturacion_db\facturacion_db\facturacion_db.Data\obj\Debug\netcoreapp3.1\facturacion_db.Data.csprojAssemblyReference.cache
+C:\Projectos\Facturacion_db\facturacion_db\facturacion_db.Data\obj\Debug\netcoreapp3.1\facturacion_db.Data.AssemblyInfoInputs.cache
+C:\Projectos\Facturacion_db\facturacion_db\facturacion_db.Data\obj\Debug\netcoreapp3.1\facturacion_db.Data.AssemblyInfo.cs
+C:\Projectos\Facturacion_db\facturacion_db\facturacion_db.Data\bin\Debug\netcoreapp3.1\facturacion_db.Data.runtimeconfig.json
+C:\Projectos\Facturacion_db\facturacion_db\facturacion_db.Data\bin\Debug\netcoreapp3.1\facturacion_db.Data.runtimeconfig.dev.json
+C:\Projectos\Facturacion_db\facturacion_db\facturacion_db.Data\bin\Debug\netcoreapp3.1\facturacion_db.Data.pdb
+C:\Projectos\Facturacion_db\facturacion_db\facturacion_db.Data\obj\Debug\netcoreapp3.1\facturacion_db.Data.dll
+C:\Projectos\Facturacion_db\facturacion_db\facturacion_db.Data\obj\Debug\netcoreapp3.1\facturacion_db.Data.pdb

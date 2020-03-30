@@ -1,0 +1,11 @@
+C:\Projectos\Facturacion_db\facturacion_db\facturacion_db.Application\bin\Debug\netcoreapp3.1\facturacion_db.Application.deps.json
+C:\Projectos\Facturacion_db\facturacion_db\facturacion_db.Application\bin\Debug\netcoreapp3.1\facturacion_db.Application.dll
+C:\Projectos\Facturacion_db\facturacion_db\facturacion_db.Application\bin\Debug\netcoreapp3.1\facturacion_db.Application.pdb
+C:\Projectos\Facturacion_db\facturacion_db\facturacion_db.Application\bin\Debug\netcoreapp3.1\facturacion_db.Data.dll
+C:\Projectos\Facturacion_db\facturacion_db\facturacion_db.Application\bin\Debug\netcoreapp3.1\facturacion_db.Data.pdb
+C:\Projectos\Facturacion_db\facturacion_db\facturacion_db.Application\obj\Debug\netcoreapp3.1\facturacion_db.Application.csprojAssemblyReference.cache
+C:\Projectos\Facturacion_db\facturacion_db\facturacion_db.Application\obj\Debug\netcoreapp3.1\facturacion_db.Application.AssemblyInfoInputs.cache
+C:\Projectos\Facturacion_db\facturacion_db\facturacion_db.Application\obj\Debug\netcoreapp3.1\facturacion_db.Application.AssemblyInfo.cs
+C:\Projectos\Facturacion_db\facturacion_db\facturacion_db.Application\obj\Debug\netcoreapp3.1\facturacion_db.Application.csproj.CopyComplete
+C:\Projectos\Facturacion_db\facturacion_db\facturacion_db.Application\obj\Debug\netcoreapp3.1\facturacion_db.Application.dll
+C:\Projectos\Facturacion_db\facturacion_db\facturacion_db.Application\obj\Debug\netcoreapp3.1\facturacion_db.Application.pdb
