@@ -13,13 +13,18 @@ namespace facturacion_db.Controllers
     [Route("[controller]")]
     public class EmpresaController : ControllerBase
     {
-        EmpresaService serv = new EmpresaService();
+        EmpresaService _serv;
+
+        public EmpresaController(EmpresaService serv)
+        {
+            _serv = serv;
+        }
 
         [HttpGet]
         [Route("getEmpresa")]
         public IActionResult Get()
         {
-            return Ok(serv.getEmpresas());
+            return Ok(_serv.ObtenerEmpresa(1));
         }
     }
 }

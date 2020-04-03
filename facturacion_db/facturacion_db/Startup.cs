@@ -14,6 +14,7 @@ using facturacion_db.Data.Models;
 using MySql.Data;
 using Microsoft.EntityFrameworkCore;
 using AutoMapper;
+using facturacion_db.Application.Services;
 
 namespace facturacion_db
 {
@@ -32,6 +33,7 @@ namespace facturacion_db
             services.AddDbContext<facturaciondb>(options => options.UseMySql(Configuration.GetConnectionString("facturacion")));
             services.AddControllers();
             services.AddAutoMapper(typeof(Startup));
+            services.AddTransient<EmpresaService, EmpresaService>(); 
             services.AddControllersWithViews();
         }
 

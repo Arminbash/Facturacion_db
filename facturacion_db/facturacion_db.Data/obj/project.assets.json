@@ -934,6 +934,7 @@
       "Microsoft.EntityFrameworkCore.Design >= 3.1.3",
       "Microsoft.EntityFrameworkCore.Relational >= 3.1.3",
       "Microsoft.EntityFrameworkCore.Tools >= 3.1.3",
+      "Microsoft.Extensions.DependencyInjection.Abstractions >= 3.1.3",
       "Pomelo.EntityFrameworkCore.MySql >= 3.1.1"
     ]
   },
@@ -1008,6 +1009,10 @@
           "Microsoft.EntityFrameworkCore.Tools": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
+            "target": "Package",
+            "version": "[3.1.3, )"
+          },
+          "Microsoft.Extensions.DependencyInjection.Abstractions": {
             "target": "Package",
             "version": "[3.1.3, )"
           },
