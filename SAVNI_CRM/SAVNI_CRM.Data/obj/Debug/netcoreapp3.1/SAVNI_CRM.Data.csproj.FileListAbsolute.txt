@@ -1,0 +1,9 @@
+C:\Projectos\Facturacion_db\SAVNI_CRM\SAVNI_CRM.Data\bin\Debug\netcoreapp3.1\SAVNI_CRM.Data.deps.json
+C:\Projectos\Facturacion_db\SAVNI_CRM\SAVNI_CRM.Data\bin\Debug\netcoreapp3.1\SAVNI_CRM.Data.dll
+C:\Projectos\Facturacion_db\SAVNI_CRM\SAVNI_CRM.Data\obj\Debug\netcoreapp3.1\SAVNI_CRM.Data.AssemblyInfoInputs.cache
+C:\Projectos\Facturacion_db\SAVNI_CRM\SAVNI_CRM.Data\obj\Debug\netcoreapp3.1\SAVNI_CRM.Data.AssemblyInfo.cs
+C:\Projectos\Facturacion_db\SAVNI_CRM\SAVNI_CRM.Data\bin\Debug\netcoreapp3.1\SAVNI_CRM.Data.runtimeconfig.json
+C:\Projectos\Facturacion_db\SAVNI_CRM\SAVNI_CRM.Data\bin\Debug\netcoreapp3.1\SAVNI_CRM.Data.runtimeconfig.dev.json
+C:\Projectos\Facturacion_db\SAVNI_CRM\SAVNI_CRM.Data\bin\Debug\netcoreapp3.1\SAVNI_CRM.Data.pdb
+C:\Projectos\Facturacion_db\SAVNI_CRM\SAVNI_CRM.Data\obj\Debug\netcoreapp3.1\SAVNI_CRM.Data.dll
+C:\Projectos\Facturacion_db\SAVNI_CRM\SAVNI_CRM.Data\obj\Debug\netcoreapp3.1\SAVNI_CRM.Data.pdb
