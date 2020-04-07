@@ -27,14 +27,14 @@ namespace SAVNI_CRM.API.Controllers
         [Route("getEmpresa")]
         public IActionResult Get(int idempresa)
         {
-            return Ok(_serv.ObtenerEmpresa(idempresa));
+            return Ok(_serv.GetById(idempresa));
         }
 
         [HttpGet]
         [Route("getAllEmpresa")]
         public IActionResult GetAll()
         {
-            return Ok(_serv.ObtenerTodasEmpresa());
+            return Ok(_serv.GetAll());
         }
 
         [HttpPost]
@@ -44,7 +44,7 @@ namespace SAVNI_CRM.API.Controllers
             try
             {
                 var emp = MapperHelper<EmpresaViewModel, Empresa>.ObjectTo(empViewModel);
-                _serv.SaveEmpresa(emp);
+                _serv.Save(emp);
             }
            catch(Exception ex)
             {
@@ -63,7 +63,7 @@ namespace SAVNI_CRM.API.Controllers
             {
                 var emp = MapperHelper<EmpresaViewModel, Empresa>.ObjectTo(empViewModel);
 
-                _serv.EditEmpresa(emp);
+                _serv.Edit(emp);
             }
             catch (Exception ex)
             {

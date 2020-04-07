@@ -6,10 +6,11 @@ using SAVNI_CRM.Data.IBase;
 using SAVNI_CRM.Data.Models;
 using Microsoft.EntityFrameworkCore;
 using SAVNI_CRM.Application.AutoMapper;
+using SAVNI_CRM.Application.IServices;
 
 namespace SAVNI_CRM.Application.Services
 {
-    public class EmpresaService
+    public class EmpresaService : IEntityService<Empresa>
     {
         private savniContext _db;
         public EmpresaService(savniContext db)
@@ -19,58 +20,65 @@ namespace SAVNI_CRM.Application.Services
         /// <summary>
         /// Este metodo obtiene la primera empresa.
         /// </summary>
-        /// <param name="id"> Id de la empresa a retornar</param>
-        /// /// <param name="idEmpresa"> IdEmpresa</param>
+        /// <param name="Id"> Id de la empresa a retornar</param>
         /// <returns></returns>
-        public Empresa ObtenerEmpresa(int idEmpresa)
+        public Empresa GetById(int Id)
         {
             using (UnitOfWork unitOfWork = new UnitOfWork(_db))
             {
-                return unitOfWork.EmpresaRepository.FindBy(idEmpresa);
+                return unitOfWork.EmpresaRepository.FindBy(Id);
             }
         }
 
-        public IEnumerable<Empresa> ObtenerTodasEmpresa()
+        /// <summary>
+        /// Obtener todas las empresas
+        /// </summary>
+        /// <returns></returns>
+        public IEnumerable<Empresa> GetAll()
         {
             using (UnitOfWork unitOfWork = new UnitOfWork(_db))
             {
                 return unitOfWork.EmpresaRepository.GetEntities().ToList();
             }
-
         }
 
         /// <summary>
-        /// Este metodo guarda la empresa
+        /// Guardar una empresa nueva
         /// </summary>
-        /// <param name="empresa">El objeto empresa con sus datos</param>
+        /// <param name="entity">Empresa a guardar</param>
         /// <returns></returns>
-        public int SaveEmpresa(Empresa empresa)
+        public int Save(Empresa entity)
         {
             using (UnitOfWork unitOfWork = new UnitOfWork(_db))
             {
-                unitOfWork.EmpresaRepository.Add(empresa);
+                unitOfWork.EmpresaRepository.Add(entity);
                 return unitOfWork.SaveChanges();
             }
         }
+
         /// <summary>
         /// Este metodo edita la empresa 
         /// </summary>
-        /// <param name="empresa">Objeto con los valores a modificar</param>
+        /// <param name="entity">Objeto con los valores a modificar</param>
         /// <returns></returns>
-        public int EditEmpresa(Empresa empresa)
+        public int Edit(Empresa entity)
         {
             using (UnitOfWork unitOfWork = new UnitOfWork(_db))
             {
-                var entity = unitOfWork.EmpresaRepository.FindBy(empresa.IdEmpresa);
+                var data = unitOfWork.EmpresaRepository.FindBy(entity.IdEmpresa);
 
-                MapperHelper<Empresa, Empresa>.CopyTo(empresa,ref entity);
+                MapperHelper<Empresa, Empresa>.CopyTo(entity, ref data);
 
-                unitOfWork.EmpresaRepository.Modified(entity);
+                unitOfWork.EmpresaRepository.Modified(data);
 
                 return unitOfWork.SaveChanges();
             }
         }
 
+        public int Delete(int id)
+        {
+            throw new NotImplementedException();
+        }
     }
 
 }

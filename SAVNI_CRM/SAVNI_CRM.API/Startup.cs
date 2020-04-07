@@ -35,6 +35,7 @@ namespace SAVNI_CRM.API
             services.AddAutoMapper(typeof(Startup));
             services.AddTransient<EmpresaService, EmpresaService>();
             services.AddControllersWithViews();
+            services.ConfigureCors();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
