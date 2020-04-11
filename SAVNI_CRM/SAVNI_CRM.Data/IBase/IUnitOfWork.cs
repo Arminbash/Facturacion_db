@@ -10,6 +10,8 @@ namespace SAVNI_CRM.Data.IBase
     {
         IRepository<Empresa> EmpresaRepository { get; }
         IRepository<Usuario> UsuarioRepository { get; }
+        IRepository<Sucursal> SucursalRepository { get; }
+        IRepository<Cliente> ClienteRepository { get; }
         int SaveChanges();
     }
 }

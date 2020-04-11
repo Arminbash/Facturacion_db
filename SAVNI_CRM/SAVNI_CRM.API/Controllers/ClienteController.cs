@@ -2,54 +2,51 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using SAVNI_CRM.Application.Services;
-using SAVNI_CRM.Data.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using SAVNI_CRM.API.ViewModel;
 using SAVNI_CRM.Application.AutoMapper;
-using AutoMapper;
+using SAVNI_CRM.Application.Services;
+using SAVNI_CRM.Data.Models;
 
 namespace SAVNI_CRM.API.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class EmpresaController : ControllerBase
+    public class ClienteController : ControllerBase
     {
-        EmpresaService _serv;
-
-        public EmpresaController(EmpresaService serv)
+        ClienteService _serv;
+        public ClienteController(ClienteService serv)
         {
             _serv = serv;
         }
 
         [HttpGet]
-        [Route("getEmpresa")]
-        public IActionResult Get(int idempresa)
+        [Route("getCliente")]
+        public IActionResult get(int IdCliente)
         {
-            return Ok(_serv.GetById(idempresa));
+            return Ok(_serv.GetById(IdCliente));
         }
-
         [HttpGet]
-        [Route("getAllEmpresa")]
+        [Route("getAllCliente")]
         public IActionResult GetAll()
         {
             return Ok(_serv.GetAll());
         }
-
         [HttpPost]
-        [Route("saveEmpresa")]
-        public IActionResult Save([FromBody] EmpresaViewModel empViewModel)
-        {         
+        [Route("saveCliente")]
+        public IActionResult save([FromBody] ClienteViewModel clienteViewModel)
+        {
             try
             {
                 if (ModelState.IsValid)
                 {
-                    var emp = MapperHelper<EmpresaViewModel, Empresa>.ObjectTo(empViewModel);
-                    _serv.Save(emp);
+                    var client = MapperHelper<ClienteViewModel, Cliente>.ObjectTo(clienteViewModel);
+                    _serv.Save(client);
                 }
+               
             }
-           catch(Exception ex)
+            catch (Exception ex)
             {
                 Console.WriteLine(ex.ToString());
                 return BadRequest();
@@ -57,18 +54,18 @@ namespace SAVNI_CRM.API.Controllers
 
             return Ok(true);
         }
-
         [HttpPost]
-        [Route("EditEmpresa")]
-        public IActionResult Edit([FromBody] EmpresaViewModel empViewModel)
+        [Route("EditCliente")]
+        public IActionResult Edit([FromBody] ClienteViewModel clienteViewModel)
         {
             try
             {
                 if (ModelState.IsValid)
                 {
-                    var emp = MapperHelper<EmpresaViewModel, Empresa>.ObjectTo(empViewModel);
-                    _serv.Edit(emp);
+                    var client = MapperHelper<ClienteViewModel, Cliente>.ObjectTo(clienteViewModel);
+                    _serv.Edit(client);
                 }
+               
             }
             catch (Exception ex)
             {

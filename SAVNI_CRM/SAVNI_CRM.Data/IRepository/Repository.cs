@@ -1,6 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 
 namespace SAVNI_CRM.Data.IRepository
@@ -35,9 +37,32 @@ namespace SAVNI_CRM.Data.IRepository
             return _dbset.Find(id);
         }
 
-        public IEnumerable<T> GetEntities()
+        public IEnumerable<T> GetEntities(
+            Expression<Func<T, bool>> filter = null,
+            Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null,
+            string includeProperties = "")
         {
-            return _dbset;
+            IQueryable<T> query = _dbset;
+
+            if (filter != null)
+            {
+                query = query.Where(filter);
+            }
+
+            foreach (var includeProperty in includeProperties.Split
+                (new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries))
+            {
+                query = query.Include(includeProperty);
+            }
+
+            if (orderBy != null)
+            {
+                return orderBy(query).ToList();
+            }
+            else
+            {
+                return query.ToList();
+            }
         }
 
         public IEnumerable<T> GetRequestQuery()
@@ -47,6 +72,7 @@ namespace SAVNI_CRM.Data.IRepository
 
         public void Modified(T entity)
         {
+            _dbset.Attach(entity);
             _context.Entry(entity).State = EntityState.Modified;
         }
         #endregion

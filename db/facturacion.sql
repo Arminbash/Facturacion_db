@@ -1,3 +1,5 @@
+
+
 create table Bitacora(
 IdBitacora int NOT NULL AUTO_INCREMENT,
 Accion varchar(200),
@@ -25,7 +27,7 @@ create table kardex(
     Movimiento varchar(200),
     IdUnidadMedida int,
     CostoPonderado decimal(18,4),
-    CostoSimple decimal(18,4,),
+    CostoSimple decimal(18,4),
     IdBodega int,
     UNIQUE(IdKardex),
     primary key (IdKardex)

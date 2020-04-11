@@ -34,6 +34,8 @@ namespace SAVNI_CRM.API
             services.AddControllers();
             services.AddAutoMapper(typeof(Startup));
             services.AddTransient<EmpresaService, EmpresaService>();
+            services.AddTransient<SucursalService, SucursalService>();
+            services.AddTransient<ClienteService, ClienteService>();
             services.AddControllersWithViews();
             services.ConfigureCors();
         }

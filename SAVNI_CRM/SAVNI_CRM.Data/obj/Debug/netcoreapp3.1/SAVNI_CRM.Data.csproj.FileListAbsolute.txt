@@ -7,3 +7,15 @@ C:\Projectos\Facturacion_db\SAVNI_CRM\SAVNI_CRM.Data\bin\Debug\netcoreapp3.1\SAV
 C:\Projectos\Facturacion_db\SAVNI_CRM\SAVNI_CRM.Data\bin\Debug\netcoreapp3.1\SAVNI_CRM.Data.pdb
 C:\Projectos\Facturacion_db\SAVNI_CRM\SAVNI_CRM.Data\obj\Debug\netcoreapp3.1\SAVNI_CRM.Data.dll
 C:\Projectos\Facturacion_db\SAVNI_CRM\SAVNI_CRM.Data\obj\Debug\netcoreapp3.1\SAVNI_CRM.Data.pdb
+C:\Users\user\Documents\yamil\DOCUMENTOS EN GIT\Facturacion_db\SAVNI_CRM\SAVNI_CRM.Data\bin\Debug\netcoreapp3.1\SAVNI_CRM.Data.deps.json
+C:\Users\user\Documents\yamil\DOCUMENTOS EN GIT\Facturacion_db\SAVNI_CRM\SAVNI_CRM.Data\bin\Debug\netcoreapp3.1\SAVNI_CRM.Data.runtimeconfig.json
+C:\Users\user\Documents\yamil\DOCUMENTOS EN GIT\Facturacion_db\SAVNI_CRM\SAVNI_CRM.Data\bin\Debug\netcoreapp3.1\SAVNI_CRM.Data.runtimeconfig.dev.json
+C:\Users\user\Documents\yamil\DOCUMENTOS EN GIT\Facturacion_db\SAVNI_CRM\SAVNI_CRM.Data\bin\Debug\netcoreapp3.1\SAVNI_CRM.Data.dll
+C:\Users\user\Documents\yamil\DOCUMENTOS EN GIT\Facturacion_db\SAVNI_CRM\SAVNI_CRM.Data\bin\Debug\netcoreapp3.1\SAVNI_CRM.Data.pdb
+C:\Users\user\Documents\yamil\DOCUMENTOS EN GIT\Facturacion_db\SAVNI_CRM\SAVNI_CRM.Data\obj\Debug\netcoreapp3.1\SAVNI_CRM.Data.csprojAssemblyReference.cache
+C:\Users\user\Documents\yamil\DOCUMENTOS EN GIT\Facturacion_db\SAVNI_CRM\SAVNI_CRM.Data\obj\Debug\netcoreapp3.1\SAVNI_CRM.Data.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\yamil\DOCUMENTOS EN GIT\Facturacion_db\SAVNI_CRM\SAVNI_CRM.Data\obj\Debug\netcoreapp3.1\SAVNI_CRM.Data.AssemblyInfoInputs.cache
+C:\Users\user\Documents\yamil\DOCUMENTOS EN GIT\Facturacion_db\SAVNI_CRM\SAVNI_CRM.Data\obj\Debug\netcoreapp3.1\SAVNI_CRM.Data.AssemblyInfo.cs
+C:\Users\user\Documents\yamil\DOCUMENTOS EN GIT\Facturacion_db\SAVNI_CRM\SAVNI_CRM.Data\obj\Debug\netcoreapp3.1\SAVNI_CRM.Data.dll
+C:\Users\user\Documents\yamil\DOCUMENTOS EN GIT\Facturacion_db\SAVNI_CRM\SAVNI_CRM.Data\obj\Debug\netcoreapp3.1\SAVNI_CRM.Data.pdb
+C:\Users\user\Documents\yamil\DOCUMENTOS EN GIT\Facturacion_db\SAVNI_CRM\SAVNI_CRM.Data\obj\Debug\netcoreapp3.1\SAVNI_CRM.Data.genruntimeconfig.cache
