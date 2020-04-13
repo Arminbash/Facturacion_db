@@ -1,0 +1,6 @@
+db = SAVNI --- b7ae5je9pm0diqxpb0z0
+user = SA --- uxx6enipwu8assux
+Pass = 5qkSWwFrDyJ0tdyhuyXm
+
+
+host : b7ae5je9pm0diqxpb0z0-mysql.services.clever-cloud.com

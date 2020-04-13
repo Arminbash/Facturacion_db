@@ -9,10 +9,12 @@ using Microsoft.AspNetCore.Mvc;
 using SAVNI_CRM.API.ViewModel;
 using SAVNI_CRM.Application.AutoMapper;
 using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 
 namespace SAVNI_CRM.API.Controllers
 {
     [ApiController]
+    [Authorize]
     [Route("[controller]")]
     public class EmpresaController : ControllerBase
     {

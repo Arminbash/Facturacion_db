@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/.Rider2019.3/system/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.Rider2019.3/system/resharper-host/local/Transient/ReSharperHost/v193/SolutionCaches/_SAVNI_CRM.1510140401.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="SAVNI_CRM.API" t="IncludeRecursive">
+        <e p="Controllers" t="Include">
+          <e p="ClienteController.cs" t="Include" />
+          <e p="EmpresaController.cs" t="Include" />
+          <e p="LoginController.cs" t="Include" />
+          <e p="ProveedorController.cs" t="Include" />
+          <e p="SucursalController.cs" t="Include" />
+          <e p="WeatherForecastController.cs" t="Include" />
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="SAVNI_CRM.API.csproj" t="IncludeRecursive" />
+        <e p="Startup.cs" t="Include" />
+        <e p="Tools" t="Include">
+          <e p="JWTClass" t="Include">
+            <e p="UsuarioInfo.cs" t="Include" />
+            <e p="UsuarioLogin.cs" t="Include" />
+          </e>
+          <e p="ServiceExtensions.cs" t="Include" />
+        </e>
+        <e p="ViewModel" t="Include">
+          <e p="ClienteViewModel.cs" t="Include" />
+          <e p="EmpresaViewModel.cs" t="Include" />
+          <e p="ProveedorViewModel.cs" t="Include" />
+          <e p="SucursalViewModel.cs" t="Include" />
+        </e>
+        <e p="WeatherForecast.cs" t="Include" />
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="SAVNI_CRM.API.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="SAVNI_CRM.Application" t="IncludeRecursive">
+        <e p="AutoMapper" t="Include">
+          <e p="MapperHelper.cs" t="Include" />
+          <e p="MapperProfile.cs" t="Include" />
+        </e>
+        <e p="IServices" t="Include">
+          <e p="IEntityService.cs" t="Include" />
+        </e>
+        <e p="SAVNI_CRM.Application.csproj" t="IncludeRecursive" />
+        <e p="Services" t="Include">
+          <e p="ClienteService.cs" t="Include" />
+          <e p="EmpresaService.cs" t="Include" />
+          <e p="ProveedorService.cs" t="Include" />
+          <e p="SucursalService.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="SAVNI_CRM.Application.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="SAVNI_CRM.Data" t="IncludeRecursive">
+        <e p="Configuration" t="Include">
+          <e p="ContextExtensions.cs" t="Include" />
+        </e>
+        <e p="IBase" t="Include">
+          <e p="IUnitOfWork.cs" t="Include" />
+          <e p="UnitOfWork.cs" t="Include" />
+        </e>
+        <e p="IRepository" t="Include">
+          <e p="IRepository.cs" t="Include" />
+          <e p="Repository.cs" t="Include" />
+        </e>
+        <e p="Models" t="Include">
+          <e p="Bitacora.cs" t="Include" />
+          <e p="Bodega.cs" t="Include" />
+          <e p="Cliente.cs" t="Include" />
+          <e p="Compra.cs" t="Include" />
+          <e p="Configuracion.cs" t="Include" />
+          <e p="Detallecompra.cs" t="Include" />
+          <e p="Detalledevolucioncompra.cs" t="Include" />
+          <e p="Detalledevolucionfactura.cs" t="Include" />
+          <e p="Detallefactura.cs" t="Include" />
+          <e p="Detallepagofactura.cs" t="Include" />
+          <e p="Devolucioncompra.cs" t="Include" />
+          <e p="Devolucionfactura.cs" t="Include" />
+          <e p="Empleado.cs" t="Include" />
+          <e p="Empresa.cs" t="Include" />
+          <e p="Equivalenciaproducto.cs" t="Include" />
+          <e p="Factura.cs" t="Include" />
+          <e p="Kardex.cs" t="Include" />
+          <e p="Listaaccesos.cs" t="Include" />
+          <e p="Lote.cs" t="Include" />
+          <e p="Lotekardex.cs" t="Include" />
+          <e p="Marca.cs" t="Include" />
+          <e p="Precioproducto.cs" t="Include" />
+          <e p="Producto.cs" t="Include" />
+          <e p="Proveedor.cs" t="Include" />
+          <e p="Proveedorcontacto.cs" t="Include" />
+          <e p="RolLista.cs" t="Include" />
+          <e p="Roles.cs" t="Include" />
+          <e p="Serie.cs" t="Include" />
+          <e p="Sucursal.cs" t="Include" />
+          <e p="Sucursalempleado.cs" t="Include" />
+          <e p="Talla.cs" t="Include" />
+          <e p="Tasacambio.cs" t="Include" />
+          <e p="Tipo.cs" t="Include" />
+          <e p="Unidadmedida.cs" t="Include" />
+          <e p="Usuario.cs" t="Include" />
+          <e p="savniContext.cs" t="Include" />
+        </e>
+        <e p="SAVNI_CRM.Data.csproj" t="IncludeRecursive" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="SAVNI_CRM.Data.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="SAVNI_CRM.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

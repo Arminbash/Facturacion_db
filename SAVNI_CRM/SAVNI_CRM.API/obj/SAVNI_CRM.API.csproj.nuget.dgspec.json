@@ -1,40 +1,35 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Documents\\yamil\\DOCUMENTOS EN GIT\\Facturacion_db\\SAVNI_CRM\\SAVNI_CRM.API\\SAVNI_CRM.API.csproj": {}
+    "/media/arminbash/_dde_data/Projects/Github/Facturacion_db/SAVNI_CRM/SAVNI_CRM.API/SAVNI_CRM.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Documents\\yamil\\DOCUMENTOS EN GIT\\Facturacion_db\\SAVNI_CRM\\SAVNI_CRM.API\\SAVNI_CRM.API.csproj": {
+    "/media/arminbash/_dde_data/Projects/Github/Facturacion_db/SAVNI_CRM/SAVNI_CRM.API/SAVNI_CRM.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Documents\\yamil\\DOCUMENTOS EN GIT\\Facturacion_db\\SAVNI_CRM\\SAVNI_CRM.API\\SAVNI_CRM.API.csproj",
+        "projectUniqueName": "/media/arminbash/_dde_data/Projects/Github/Facturacion_db/SAVNI_CRM/SAVNI_CRM.API/SAVNI_CRM.API.csproj",
         "projectName": "SAVNI_CRM.API",
-        "projectPath": "C:\\Users\\user\\Documents\\yamil\\DOCUMENTOS EN GIT\\Facturacion_db\\SAVNI_CRM\\SAVNI_CRM.API\\SAVNI_CRM.API.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Documents\\yamil\\DOCUMENTOS EN GIT\\Facturacion_db\\SAVNI_CRM\\SAVNI_CRM.API\\obj\\",
+        "projectPath": "/media/arminbash/_dde_data/Projects/Github/Facturacion_db/SAVNI_CRM/SAVNI_CRM.API/SAVNI_CRM.API.csproj",
+        "packagesPath": "/home/arminbash/.nuget/packages/",
+        "outputPath": "/media/arminbash/_dde_data/Projects/Github/Facturacion_db/SAVNI_CRM/SAVNI_CRM.API/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/arminbash/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\user\\Documents\\yamil\\DOCUMENTOS EN GIT\\Facturacion_db\\SAVNI_CRM\\SAVNI_CRM.Application\\SAVNI_CRM.Application.csproj": {
-                "projectPath": "C:\\Users\\user\\Documents\\yamil\\DOCUMENTOS EN GIT\\Facturacion_db\\SAVNI_CRM\\SAVNI_CRM.Application\\SAVNI_CRM.Application.csproj"
+              "/media/arminbash/_dde_data/Projects/Github/Facturacion_db/SAVNI_CRM/SAVNI_CRM.Application/SAVNI_CRM.Application.csproj": {
+                "projectPath": "/media/arminbash/_dde_data/Projects/Github/Facturacion_db/SAVNI_CRM/SAVNI_CRM.Application/SAVNI_CRM.Application.csproj"
               },
-              "C:\\Users\\user\\Documents\\yamil\\DOCUMENTOS EN GIT\\Facturacion_db\\SAVNI_CRM\\SAVNI_CRM.Data\\SAVNI_CRM.Data.csproj": {
-                "projectPath": "C:\\Users\\user\\Documents\\yamil\\DOCUMENTOS EN GIT\\Facturacion_db\\SAVNI_CRM\\SAVNI_CRM.Data\\SAVNI_CRM.Data.csproj"
+              "/media/arminbash/_dde_data/Projects/Github/Facturacion_db/SAVNI_CRM/SAVNI_CRM.Data/SAVNI_CRM.Data.csproj": {
+                "projectPath": "/media/arminbash/_dde_data/Projects/Github/Facturacion_db/SAVNI_CRM/SAVNI_CRM.Data/SAVNI_CRM.Data.csproj"
               }
             }
           }
@@ -55,6 +50,10 @@
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[7.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.3, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -78,13 +77,25 @@
               "target": "Package",
               "version": "[3.1.3, )"
             },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[3.1.2, )"
             },
+            "NSwag.AspNetCore": {
+              "target": "Package",
+              "version": "[13.3.0, )"
+            },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
               "version": "[3.1.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.3.1, )"
             }
           },
           "imports": [
@@ -105,38 +116,33 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.201/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\user\\Documents\\yamil\\DOCUMENTOS EN GIT\\Facturacion_db\\SAVNI_CRM\\SAVNI_CRM.Application\\SAVNI_CRM.Application.csproj": {
+    "/media/arminbash/_dde_data/Projects/Github/Facturacion_db/SAVNI_CRM/SAVNI_CRM.Application/SAVNI_CRM.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Documents\\yamil\\DOCUMENTOS EN GIT\\Facturacion_db\\SAVNI_CRM\\SAVNI_CRM.Application\\SAVNI_CRM.Application.csproj",
+        "projectUniqueName": "/media/arminbash/_dde_data/Projects/Github/Facturacion_db/SAVNI_CRM/SAVNI_CRM.Application/SAVNI_CRM.Application.csproj",
         "projectName": "SAVNI_CRM.Application",
-        "projectPath": "C:\\Users\\user\\Documents\\yamil\\DOCUMENTOS EN GIT\\Facturacion_db\\SAVNI_CRM\\SAVNI_CRM.Application\\SAVNI_CRM.Application.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Documents\\yamil\\DOCUMENTOS EN GIT\\Facturacion_db\\SAVNI_CRM\\SAVNI_CRM.Application\\obj\\",
+        "projectPath": "/media/arminbash/_dde_data/Projects/Github/Facturacion_db/SAVNI_CRM/SAVNI_CRM.Application/SAVNI_CRM.Application.csproj",
+        "packagesPath": "/home/arminbash/.nuget/packages/",
+        "outputPath": "/media/arminbash/_dde_data/Projects/Github/Facturacion_db/SAVNI_CRM/SAVNI_CRM.Application/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/arminbash/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\user\\Documents\\yamil\\DOCUMENTOS EN GIT\\Facturacion_db\\SAVNI_CRM\\SAVNI_CRM.Data\\SAVNI_CRM.Data.csproj": {
-                "projectPath": "C:\\Users\\user\\Documents\\yamil\\DOCUMENTOS EN GIT\\Facturacion_db\\SAVNI_CRM\\SAVNI_CRM.Data\\SAVNI_CRM.Data.csproj"
+              "/media/arminbash/_dde_data/Projects/Github/Facturacion_db/SAVNI_CRM/SAVNI_CRM.Data/SAVNI_CRM.Data.csproj": {
+                "projectPath": "/media/arminbash/_dde_data/Projects/Github/Facturacion_db/SAVNI_CRM/SAVNI_CRM.Data/SAVNI_CRM.Data.csproj"
               }
             }
           }
@@ -190,31 +196,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.201/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\user\\Documents\\yamil\\DOCUMENTOS EN GIT\\Facturacion_db\\SAVNI_CRM\\SAVNI_CRM.Data\\SAVNI_CRM.Data.csproj": {
+    "/media/arminbash/_dde_data/Projects/Github/Facturacion_db/SAVNI_CRM/SAVNI_CRM.Data/SAVNI_CRM.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Documents\\yamil\\DOCUMENTOS EN GIT\\Facturacion_db\\SAVNI_CRM\\SAVNI_CRM.Data\\SAVNI_CRM.Data.csproj",
+        "projectUniqueName": "/media/arminbash/_dde_data/Projects/Github/Facturacion_db/SAVNI_CRM/SAVNI_CRM.Data/SAVNI_CRM.Data.csproj",
         "projectName": "SAVNI_CRM.Data",
-        "projectPath": "C:\\Users\\user\\Documents\\yamil\\DOCUMENTOS EN GIT\\Facturacion_db\\SAVNI_CRM\\SAVNI_CRM.Data\\SAVNI_CRM.Data.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Documents\\yamil\\DOCUMENTOS EN GIT\\Facturacion_db\\SAVNI_CRM\\SAVNI_CRM.Data\\obj\\",
+        "projectPath": "/media/arminbash/_dde_data/Projects/Github/Facturacion_db/SAVNI_CRM/SAVNI_CRM.Data/SAVNI_CRM.Data.csproj",
+        "packagesPath": "/home/arminbash/.nuget/packages/",
+        "outputPath": "/media/arminbash/_dde_data/Projects/Github/Facturacion_db/SAVNI_CRM/SAVNI_CRM.Data/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/arminbash/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -283,7 +284,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.201/RuntimeIdentifierGraph.json"
         }
       }
     }

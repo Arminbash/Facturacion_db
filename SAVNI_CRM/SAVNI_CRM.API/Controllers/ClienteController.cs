@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using SAVNI_CRM.API.ViewModel;
@@ -12,6 +13,7 @@ using SAVNI_CRM.Data.Models;
 namespace SAVNI_CRM.API.Controllers
 {
     [ApiController]
+    [Authorize]
     [Route("[controller]")]
     public class ClienteController : ControllerBase
     {
