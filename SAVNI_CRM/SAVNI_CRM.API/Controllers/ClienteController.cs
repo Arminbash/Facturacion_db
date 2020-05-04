@@ -22,7 +22,11 @@ namespace SAVNI_CRM.API.Controllers
         {
             _serv = serv;
         }
-
+        /// <summary>
+        /// Cliente obtener por id
+        /// </summary>
+        /// <param name="IdCliente">id del cliente</param>
+        /// <returns>retorna un cliente con el id especifico</returns>
         [HttpGet]
         [Route("getCliente")]
         public IActionResult get(int IdCliente)
