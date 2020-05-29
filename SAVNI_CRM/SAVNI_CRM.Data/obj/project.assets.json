@@ -939,31 +939,36 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Programador02\\.nuget\\packages\\": {},
+    "C:\\Users\\Mscorp\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Programador02\\Documents\\ARCAST\\REPOSITORIOS GIT\\Facturacion_db\\SAVNI_CRM\\SAVNI_CRM.Data\\SAVNI_CRM.Data.csproj",
+      "projectUniqueName": "C:\\Projectos\\Facturacion_db\\SAVNI_CRM\\SAVNI_CRM.Data\\SAVNI_CRM.Data.csproj",
       "projectName": "SAVNI_CRM.Data",
-      "projectPath": "C:\\Users\\Programador02\\Documents\\ARCAST\\REPOSITORIOS GIT\\Facturacion_db\\SAVNI_CRM\\SAVNI_CRM.Data\\SAVNI_CRM.Data.csproj",
-      "packagesPath": "C:\\Users\\Programador02\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Programador02\\Documents\\ARCAST\\REPOSITORIOS GIT\\Facturacion_db\\SAVNI_CRM\\SAVNI_CRM.Data\\obj\\",
+      "projectPath": "C:\\Projectos\\Facturacion_db\\SAVNI_CRM\\SAVNI_CRM.Data\\SAVNI_CRM.Data.csproj",
+      "packagesPath": "C:\\Users\\Mscorp\\.nuget\\packages\\",
+      "outputPath": "C:\\Projectos\\Facturacion_db\\SAVNI_CRM\\SAVNI_CRM.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Programador02\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Mscorp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.1.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\DevExpress 19.1\\Components\\System\\Components\\Packages": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://www.nuget.org/api/v2/": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
@@ -1031,7 +1036,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
