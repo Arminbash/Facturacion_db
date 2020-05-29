@@ -37,7 +37,7 @@ namespace SAVNI_CRM.Application.Services
                 return unitOfWork.ProveedorRepository.GetEntities(filter: x => x.Estado == 1);
             }
         }
-        
+
         /// <summary>
         /// Guarda el objeto de tipo proveedor
         /// </summary>

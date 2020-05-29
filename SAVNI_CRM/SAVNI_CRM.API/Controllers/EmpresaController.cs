@@ -47,7 +47,7 @@ namespace SAVNI_CRM.API.Controllers
             {
                 if (ModelState.IsValid)
                 {
-                    var emp = MapperHelper<EmpresaViewModel, Empresa>.ObjectTo(empViewModel);
+                    var emp = MapperHelper<EmpresaViewModel, Empresa>.ObjectTo(empViewModel);                                   
                     _serv.Save(emp);
                 }
             }

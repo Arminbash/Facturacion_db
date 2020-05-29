@@ -10,7 +10,7 @@ namespace SAVNI_CRM.Data.IBase
     public partial class UnitOfWork : IUnitOfWork
     {
         private Repository<Empresa> _empresa; private Repository<Usuario> _usuario; private Repository<Sucursal> _sucursal;
-        private Repository<Cliente> _cliente; private Repository<Proveedor> _proveedor;
+        private Repository<Cliente> _cliente; private Repository<Proveedor> _proveedor; private Repository<Proveedorcontacto> _proveedorContacto;
 
         private readonly DbContext dbContext;
         #region("Constructor")
@@ -43,6 +43,11 @@ namespace SAVNI_CRM.Data.IBase
         public IRepository<Proveedor> ProveedorRepository
         {
             get { return _proveedor ?? (_proveedor = new Repository<Proveedor>(dbContext)); }
+        }
+
+        public IRepository<Proveedorcontacto> ProveedorContactoRepository
+        {
+            get { return _proveedorContacto ?? (_proveedorContacto = new Repository<Proveedorcontacto>(dbContext)); }
         }
 
         public void Dispose()
