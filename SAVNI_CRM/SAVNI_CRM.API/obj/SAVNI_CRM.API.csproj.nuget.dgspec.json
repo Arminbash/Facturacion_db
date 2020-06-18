@@ -1,44 +1,40 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projectos\\Facturacion_db\\SAVNI_CRM\\SAVNI_CRM.API\\SAVNI_CRM.API.csproj": {}
+    "C:\\Users\\Programador02\\Documents\\ARCAST\\REPOSITORIOS GIT\\Facturacion_db\\SAVNI_CRM\\SAVNI_CRM.API\\SAVNI_CRM.API.csproj": {}
   },
   "projects": {
-    "C:\\Projectos\\Facturacion_db\\SAVNI_CRM\\SAVNI_CRM.API\\SAVNI_CRM.API.csproj": {
+    "C:\\Users\\Programador02\\Documents\\ARCAST\\REPOSITORIOS GIT\\Facturacion_db\\SAVNI_CRM\\SAVNI_CRM.API\\SAVNI_CRM.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projectos\\Facturacion_db\\SAVNI_CRM\\SAVNI_CRM.API\\SAVNI_CRM.API.csproj",
+        "projectUniqueName": "C:\\Users\\Programador02\\Documents\\ARCAST\\REPOSITORIOS GIT\\Facturacion_db\\SAVNI_CRM\\SAVNI_CRM.API\\SAVNI_CRM.API.csproj",
         "projectName": "SAVNI_CRM.API",
-        "projectPath": "C:\\Projectos\\Facturacion_db\\SAVNI_CRM\\SAVNI_CRM.API\\SAVNI_CRM.API.csproj",
-        "packagesPath": "C:\\Users\\Mscorp\\.nuget\\packages\\",
-        "outputPath": "C:\\Projectos\\Facturacion_db\\SAVNI_CRM\\SAVNI_CRM.API\\obj\\",
+        "projectPath": "C:\\Users\\Programador02\\Documents\\ARCAST\\REPOSITORIOS GIT\\Facturacion_db\\SAVNI_CRM\\SAVNI_CRM.API\\SAVNI_CRM.API.csproj",
+        "packagesPath": "C:\\Users\\Programador02\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Programador02\\Documents\\ARCAST\\REPOSITORIOS GIT\\Facturacion_db\\SAVNI_CRM\\SAVNI_CRM.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Mscorp\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.1.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Programador02\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\DevExpress 19.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://www.nuget.org/api/v2/": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Projectos\\Facturacion_db\\SAVNI_CRM\\SAVNI_CRM.Application\\SAVNI_CRM.Application.csproj": {
-                "projectPath": "C:\\Projectos\\Facturacion_db\\SAVNI_CRM\\SAVNI_CRM.Application\\SAVNI_CRM.Application.csproj"
+              "C:\\Users\\Programador02\\Documents\\ARCAST\\REPOSITORIOS GIT\\Facturacion_db\\SAVNI_CRM\\SAVNI_CRM.Application\\SAVNI_CRM.Application.csproj": {
+                "projectPath": "C:\\Users\\Programador02\\Documents\\ARCAST\\REPOSITORIOS GIT\\Facturacion_db\\SAVNI_CRM\\SAVNI_CRM.Application\\SAVNI_CRM.Application.csproj"
               },
-              "C:\\Projectos\\Facturacion_db\\SAVNI_CRM\\SAVNI_CRM.Data\\SAVNI_CRM.Data.csproj": {
-                "projectPath": "C:\\Projectos\\Facturacion_db\\SAVNI_CRM\\SAVNI_CRM.Data\\SAVNI_CRM.Data.csproj"
+              "C:\\Users\\Programador02\\Documents\\ARCAST\\REPOSITORIOS GIT\\Facturacion_db\\SAVNI_CRM\\SAVNI_CRM.Data\\SAVNI_CRM.Data.csproj": {
+                "projectPath": "C:\\Users\\Programador02\\Documents\\ARCAST\\REPOSITORIOS GIT\\Facturacion_db\\SAVNI_CRM\\SAVNI_CRM.Data\\SAVNI_CRM.Data.csproj"
               }
             }
           }
@@ -62,33 +58,33 @@
             },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
-              "version": "[3.1.3, )"
+              "version": "[3.1.5, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[3.1.3, )"
+              "version": "[3.1.5, )"
             },
             "Microsoft.EntityFrameworkCore.Abstractions": {
               "target": "Package",
-              "version": "[3.1.3, )"
+              "version": "[3.1.5, )"
             },
             "Microsoft.EntityFrameworkCore.Analyzers": {
               "target": "Package",
-              "version": "[3.1.3, )"
+              "version": "[3.1.5, )"
             },
             "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
-              "version": "[3.1.3, )"
+              "version": "[3.1.5, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.1.3, )"
+              "version": "[3.1.5, )"
             },
             "Microsoft.IdentityModel.Tokens": {
               "target": "Package",
-              "version": "[6.5.0, )"
+              "version": "[6.6.0, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
@@ -96,7 +92,7 @@
             },
             "NSwag.AspNetCore": {
               "target": "Package",
-              "version": "[13.3.0, )"
+              "version": "[13.6.0, )"
             },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
@@ -104,7 +100,7 @@
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[5.3.1, )"
+              "version": "[5.4.1, )"
             }
           },
           "imports": [
@@ -125,42 +121,38 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Projectos\\Facturacion_db\\SAVNI_CRM\\SAVNI_CRM.Application\\SAVNI_CRM.Application.csproj": {
+    "C:\\Users\\Programador02\\Documents\\ARCAST\\REPOSITORIOS GIT\\Facturacion_db\\SAVNI_CRM\\SAVNI_CRM.Application\\SAVNI_CRM.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projectos\\Facturacion_db\\SAVNI_CRM\\SAVNI_CRM.Application\\SAVNI_CRM.Application.csproj",
+        "projectUniqueName": "C:\\Users\\Programador02\\Documents\\ARCAST\\REPOSITORIOS GIT\\Facturacion_db\\SAVNI_CRM\\SAVNI_CRM.Application\\SAVNI_CRM.Application.csproj",
         "projectName": "SAVNI_CRM.Application",
-        "projectPath": "C:\\Projectos\\Facturacion_db\\SAVNI_CRM\\SAVNI_CRM.Application\\SAVNI_CRM.Application.csproj",
-        "packagesPath": "C:\\Users\\Mscorp\\.nuget\\packages\\",
-        "outputPath": "C:\\Projectos\\Facturacion_db\\SAVNI_CRM\\SAVNI_CRM.Application\\obj\\",
+        "projectPath": "C:\\Users\\Programador02\\Documents\\ARCAST\\REPOSITORIOS GIT\\Facturacion_db\\SAVNI_CRM\\SAVNI_CRM.Application\\SAVNI_CRM.Application.csproj",
+        "packagesPath": "C:\\Users\\Programador02\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Programador02\\Documents\\ARCAST\\REPOSITORIOS GIT\\Facturacion_db\\SAVNI_CRM\\SAVNI_CRM.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Mscorp\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.1.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Programador02\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\DevExpress 19.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://www.nuget.org/api/v2/": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Projectos\\Facturacion_db\\SAVNI_CRM\\SAVNI_CRM.Data\\SAVNI_CRM.Data.csproj": {
-                "projectPath": "C:\\Projectos\\Facturacion_db\\SAVNI_CRM\\SAVNI_CRM.Data\\SAVNI_CRM.Data.csproj"
+              "C:\\Users\\Programador02\\Documents\\ARCAST\\REPOSITORIOS GIT\\Facturacion_db\\SAVNI_CRM\\SAVNI_CRM.Data\\SAVNI_CRM.Data.csproj": {
+                "projectPath": "C:\\Users\\Programador02\\Documents\\ARCAST\\REPOSITORIOS GIT\\Facturacion_db\\SAVNI_CRM\\SAVNI_CRM.Data\\SAVNI_CRM.Data.csproj"
               }
             }
           }
@@ -184,19 +176,19 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[3.1.3, )"
+              "version": "[3.1.5, )"
             },
             "Microsoft.EntityFrameworkCore.Abstractions": {
               "target": "Package",
-              "version": "[3.1.3, )"
+              "version": "[3.1.5, )"
             },
             "Microsoft.EntityFrameworkCore.Analyzers": {
               "target": "Package",
-              "version": "[3.1.3, )"
+              "version": "[3.1.5, )"
             },
             "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
-              "version": "[3.1.3, )"
+              "version": "[3.1.5, )"
             }
           },
           "imports": [
@@ -214,36 +206,32 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Projectos\\Facturacion_db\\SAVNI_CRM\\SAVNI_CRM.Data\\SAVNI_CRM.Data.csproj": {
+    "C:\\Users\\Programador02\\Documents\\ARCAST\\REPOSITORIOS GIT\\Facturacion_db\\SAVNI_CRM\\SAVNI_CRM.Data\\SAVNI_CRM.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projectos\\Facturacion_db\\SAVNI_CRM\\SAVNI_CRM.Data\\SAVNI_CRM.Data.csproj",
+        "projectUniqueName": "C:\\Users\\Programador02\\Documents\\ARCAST\\REPOSITORIOS GIT\\Facturacion_db\\SAVNI_CRM\\SAVNI_CRM.Data\\SAVNI_CRM.Data.csproj",
         "projectName": "SAVNI_CRM.Data",
-        "projectPath": "C:\\Projectos\\Facturacion_db\\SAVNI_CRM\\SAVNI_CRM.Data\\SAVNI_CRM.Data.csproj",
-        "packagesPath": "C:\\Users\\Mscorp\\.nuget\\packages\\",
-        "outputPath": "C:\\Projectos\\Facturacion_db\\SAVNI_CRM\\SAVNI_CRM.Data\\obj\\",
+        "projectPath": "C:\\Users\\Programador02\\Documents\\ARCAST\\REPOSITORIOS GIT\\Facturacion_db\\SAVNI_CRM\\SAVNI_CRM.Data\\SAVNI_CRM.Data.csproj",
+        "packagesPath": "C:\\Users\\Programador02\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Programador02\\Documents\\ARCAST\\REPOSITORIOS GIT\\Facturacion_db\\SAVNI_CRM\\SAVNI_CRM.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Mscorp\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.1.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Programador02\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\DevExpress 19.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://www.nuget.org/api/v2/": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
@@ -261,35 +249,35 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[3.1.3, )"
+              "version": "[3.1.5, )"
             },
             "Microsoft.EntityFrameworkCore.Abstractions": {
               "target": "Package",
-              "version": "[3.1.3, )"
+              "version": "[3.1.5, )"
             },
             "Microsoft.EntityFrameworkCore.Analyzers": {
               "target": "Package",
-              "version": "[3.1.3, )"
+              "version": "[3.1.5, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.1.3, )"
+              "version": "[3.1.5, )"
             },
             "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
-              "version": "[3.1.3, )"
+              "version": "[3.1.5, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.1.3, )"
+              "version": "[3.1.5, )"
             },
             "Microsoft.Extensions.DependencyInjection.Abstractions": {
               "target": "Package",
-              "version": "[3.1.3, )"
+              "version": "[3.1.5, )"
             },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
@@ -311,7 +299,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

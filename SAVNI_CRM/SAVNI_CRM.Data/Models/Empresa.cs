@@ -9,7 +9,6 @@ namespace SAVNI_CRM.Data.Models
         {
             Cliente = new HashSet<Cliente>();
             Configuracion = new HashSet<Configuracion>();
-            Empleado = new HashSet<Empleado>();
             Proveedor = new HashSet<Proveedor>();
             Roles = new HashSet<Roles>();
             Sucursal = new HashSet<Sucursal>();
@@ -24,7 +23,6 @@ namespace SAVNI_CRM.Data.Models
 
         public virtual ICollection<Cliente> Cliente { get; set; }
         public virtual ICollection<Configuracion> Configuracion { get; set; }
-        public virtual ICollection<Empleado> Empleado { get; set; }
         public virtual ICollection<Proveedor> Proveedor { get; set; }
         public virtual ICollection<Roles> Roles { get; set; }
         public virtual ICollection<Sucursal> Sucursal { get; set; }

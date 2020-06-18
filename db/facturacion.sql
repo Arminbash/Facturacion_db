@@ -74,13 +74,11 @@ create table Configuracion(
 );
 create table Proveedor(
     IdProveedor int NOT NULL AUTO_INCREMENT,
-    Consecutivo varchar(100),
+    Codigo varchar(100),
     Nombre varchar(200),
     TipoProducto varchar(100),
     Direccion varchar(200),
-    IdSerie int,
-    IdEmpresa int,
-    SerieConsecutivo varchar(120),
+    IdEmpresa int,   
     Estado bit,
     UNIQUE(IdProveedor),
     primary key (IdProveedor),
@@ -154,17 +152,16 @@ create TABLE Bodega(
 );
 create TABLE Empleado(
     IdEmpleado int NOT NULL AUTO_INCREMENT,
+    Codigo varchar(100),
     Nombres VARCHAR(200),
     Apellidos VARCHAR(200),
     Cedula VARCHAR(100),
     Direccion VARCHAR(200),
     Telefono VARCHAR(50),
-    Correo VARCHAR(100),
-    IdEmpresa int,
+    Correo VARCHAR(100),   
     Estado bit,
     Unique(IdEmpleado),
     primary KEY(IdEmpleado),
-    FOREIGN key (IdEmpresa) REFERENCES Empresa(IdEmpresa)
 );
 create table Usuario(
     IdUsuario int NOT NULL AUTO_INCREMENT,

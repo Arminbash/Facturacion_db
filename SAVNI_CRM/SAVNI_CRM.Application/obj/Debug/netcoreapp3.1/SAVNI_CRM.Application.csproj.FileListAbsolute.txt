@@ -33,3 +33,15 @@ C:\Projectos\Facturacion_db\SAVNI_CRM\SAVNI_CRM.Application\obj\Debug\netcoreapp
 C:\Projectos\Facturacion_db\SAVNI_CRM\SAVNI_CRM.Application\obj\Debug\netcoreapp3.1\SAVNI_CRM.Application.csproj.CopyComplete
 C:\Projectos\Facturacion_db\SAVNI_CRM\SAVNI_CRM.Application\obj\Debug\netcoreapp3.1\SAVNI_CRM.Application.dll
 C:\Projectos\Facturacion_db\SAVNI_CRM\SAVNI_CRM.Application\obj\Debug\netcoreapp3.1\SAVNI_CRM.Application.pdb
+C:\Users\Programador02\Documents\ARCAST\REPOSITORIOS GIT\Facturacion_db\SAVNI_CRM\SAVNI_CRM.Application\bin\Debug\netcoreapp3.1\SAVNI_CRM.Application.deps.json
+C:\Users\Programador02\Documents\ARCAST\REPOSITORIOS GIT\Facturacion_db\SAVNI_CRM\SAVNI_CRM.Application\bin\Debug\netcoreapp3.1\SAVNI_CRM.Application.dll
+C:\Users\Programador02\Documents\ARCAST\REPOSITORIOS GIT\Facturacion_db\SAVNI_CRM\SAVNI_CRM.Application\bin\Debug\netcoreapp3.1\SAVNI_CRM.Application.pdb
+C:\Users\Programador02\Documents\ARCAST\REPOSITORIOS GIT\Facturacion_db\SAVNI_CRM\SAVNI_CRM.Application\bin\Debug\netcoreapp3.1\SAVNI_CRM.Data.dll
+C:\Users\Programador02\Documents\ARCAST\REPOSITORIOS GIT\Facturacion_db\SAVNI_CRM\SAVNI_CRM.Application\bin\Debug\netcoreapp3.1\SAVNI_CRM.Data.pdb
+C:\Users\Programador02\Documents\ARCAST\REPOSITORIOS GIT\Facturacion_db\SAVNI_CRM\SAVNI_CRM.Application\obj\Debug\netcoreapp3.1\SAVNI_CRM.Application.csprojAssemblyReference.cache
+C:\Users\Programador02\Documents\ARCAST\REPOSITORIOS GIT\Facturacion_db\SAVNI_CRM\SAVNI_CRM.Application\obj\Debug\netcoreapp3.1\SAVNI_CRM.Application.csproj.CoreCompileInputs.cache
+C:\Users\Programador02\Documents\ARCAST\REPOSITORIOS GIT\Facturacion_db\SAVNI_CRM\SAVNI_CRM.Application\obj\Debug\netcoreapp3.1\SAVNI_CRM.Application.AssemblyInfoInputs.cache
+C:\Users\Programador02\Documents\ARCAST\REPOSITORIOS GIT\Facturacion_db\SAVNI_CRM\SAVNI_CRM.Application\obj\Debug\netcoreapp3.1\SAVNI_CRM.Application.AssemblyInfo.cs
+C:\Users\Programador02\Documents\ARCAST\REPOSITORIOS GIT\Facturacion_db\SAVNI_CRM\SAVNI_CRM.Application\obj\Debug\netcoreapp3.1\SAVNI_CRM.Application.csproj.CopyComplete
+C:\Users\Programador02\Documents\ARCAST\REPOSITORIOS GIT\Facturacion_db\SAVNI_CRM\SAVNI_CRM.Application\obj\Debug\netcoreapp3.1\SAVNI_CRM.Application.dll
+C:\Users\Programador02\Documents\ARCAST\REPOSITORIOS GIT\Facturacion_db\SAVNI_CRM\SAVNI_CRM.Application\obj\Debug\netcoreapp3.1\SAVNI_CRM.Application.pdb

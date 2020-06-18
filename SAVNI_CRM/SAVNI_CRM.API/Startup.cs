@@ -66,6 +66,7 @@ namespace SAVNI_CRM.API
             services.AddTransient<ClienteService, ClienteService>();
             services.AddTransient<ProveedorService, ProveedorService>();
             services.AddTransient<ProveedorContactoService, ProveedorContactoService>();
+            services.AddTransient<EmpleadoService, EmpleadoService>();
             services.AddControllersWithViews();
             services.ConfigureCors();
 

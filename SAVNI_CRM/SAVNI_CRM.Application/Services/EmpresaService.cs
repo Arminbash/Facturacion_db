@@ -79,6 +79,15 @@ namespace SAVNI_CRM.Application.Services
         {
             throw new NotImplementedException();
         }
+
+        public Empresa getEmpresaByNombre(String _Nombre)
+        {
+            using (UnitOfWork unitOfWork= new UnitOfWork(_db))
+            {
+                return unitOfWork.EmpresaRepository.GetEntities(filter: x => x.Nombre == _Nombre).FirstOrDefault();
+            }
+        }
+
     }
 
 }

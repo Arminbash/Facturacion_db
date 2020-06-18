@@ -45,7 +45,15 @@ namespace SAVNI_CRM.API.Controllers
                 if (ModelState.IsValid)
                 {
                     var proveedor = MapperHelper<ProveedorViewModel, Proveedor>.ObjectTo(proveedorViewModel);
-                    _serv.Save(proveedor);
+
+                    if (_serv.getProveedorByNombre(proveedor.Nombre) == null)
+                    {
+                        _serv.Save(proveedor);
+                    }else
+                    {
+                        return BadRequest("Nombre de proveedor existente");
+                    }
+
                 }
                
             }

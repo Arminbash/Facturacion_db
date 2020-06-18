@@ -56,7 +56,7 @@ namespace SAVNI_CRM.Data.Models
             if (!optionsBuilder.IsConfigured)
             {
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
-                optionsBuilder.UseMySql("server=localhost;database=savni;user id=sa;password=123", x => x.ServerVersion("10.4.6-mariadb"));
+                optionsBuilder.UseMySql("server=localhost;database=savni;user id=sa;password=savni123", x => x.ServerVersion("10.4.6-mariadb"));
             }
         }
 
@@ -77,8 +77,8 @@ namespace SAVNI_CRM.Data.Models
 
                 entity.Property(e => e.Accion)
                     .HasColumnType("varchar(200)")
-                    .HasCharSet("utf8")
-                    .HasCollation("utf8_general_ci");
+                    .HasCharSet("latin1")
+                    .HasCollation("latin1_swedish_ci");
 
                 entity.Property(e => e.HoraFecha).HasColumnType("date");
 
@@ -90,8 +90,8 @@ namespace SAVNI_CRM.Data.Models
 
                 entity.Property(e => e.TablaAfectada)
                     .HasColumnType("varchar(200)")
-                    .HasCharSet("utf8")
-                    .HasCollation("utf8_general_ci");
+                    .HasCharSet("latin1")
+                    .HasCollation("latin1_swedish_ci");
             });
 
             modelBuilder.Entity<Bodega>(entity =>
@@ -112,15 +112,15 @@ namespace SAVNI_CRM.Data.Models
 
                 entity.Property(e => e.CodigoBodega)
                     .HasColumnType("varchar(100)")
-                    .HasCharSet("utf8")
-                    .HasCollation("utf8_general_ci");
+                    .HasCharSet("latin1")
+                    .HasCollation("latin1_swedish_ci");
 
                 entity.Property(e => e.IdSucursal).HasColumnType("int(11)");
 
                 entity.Property(e => e.NombreBodega)
                     .HasColumnType("varchar(200)")
-                    .HasCharSet("utf8")
-                    .HasCollation("utf8_general_ci");
+                    .HasCharSet("latin1")
+                    .HasCollation("latin1_swedish_ci");
 
                 entity.HasOne(d => d.IdSucursalNavigation)
                     .WithMany(p => p.Bodega)
@@ -146,24 +146,24 @@ namespace SAVNI_CRM.Data.Models
 
                 entity.Property(e => e.Apellidos)
                     .HasColumnType("varchar(200)")
-                    .HasCharSet("utf8")
-                    .HasCollation("utf8_general_ci");
+                    .HasCharSet("latin1")
+                    .HasCollation("latin1_swedish_ci");
 
                 entity.Property(e => e.CedulaRuc)
                     .HasColumnName("Cedula_Ruc")
                     .HasColumnType("varchar(50)")
-                    .HasCharSet("utf8")
-                    .HasCollation("utf8_general_ci");
+                    .HasCharSet("latin1")
+                    .HasCollation("latin1_swedish_ci");
 
                 entity.Property(e => e.CodigoCliente)
                     .HasColumnType("varchar(100)")
-                    .HasCharSet("utf8")
-                    .HasCollation("utf8_general_ci");
+                    .HasCharSet("latin1")
+                    .HasCollation("latin1_swedish_ci");
 
                 entity.Property(e => e.Direccion)
                     .HasColumnType("varchar(2000)")
-                    .HasCharSet("utf8")
-                    .HasCollation("utf8_general_ci");
+                    .HasCharSet("latin1")
+                    .HasCollation("latin1_swedish_ci");
 
                 entity.Property(e => e.Estado).HasColumnType("bit(1)");
 
@@ -171,13 +171,13 @@ namespace SAVNI_CRM.Data.Models
 
                 entity.Property(e => e.Nombres)
                     .HasColumnType("varchar(200)")
-                    .HasCharSet("utf8")
-                    .HasCollation("utf8_general_ci");
+                    .HasCharSet("latin1")
+                    .HasCollation("latin1_swedish_ci");
 
                 entity.Property(e => e.Telefono)
                     .HasColumnType("varchar(50)")
-                    .HasCharSet("utf8")
-                    .HasCollation("utf8_general_ci");
+                    .HasCharSet("latin1")
+                    .HasCollation("latin1_swedish_ci");
 
                 entity.HasOne(d => d.IdEmpresaNavigation)
                     .WithMany(p => p.Cliente)
@@ -207,8 +207,8 @@ namespace SAVNI_CRM.Data.Models
 
                 entity.Property(e => e.Consecutivo)
                     .HasColumnType("varchar(100)")
-                    .HasCharSet("utf8")
-                    .HasCollation("utf8_general_ci");
+                    .HasCharSet("latin1")
+                    .HasCollation("latin1_swedish_ci");
 
                 entity.Property(e => e.Estado).HasColumnType("bit(1)");
 
@@ -226,18 +226,18 @@ namespace SAVNI_CRM.Data.Models
 
                 entity.Property(e => e.Moneda)
                     .HasColumnType("varchar(20)")
-                    .HasCharSet("utf8")
-                    .HasCollation("utf8_general_ci");
+                    .HasCharSet("latin1")
+                    .HasCollation("latin1_swedish_ci");
 
                 entity.Property(e => e.NumFactura)
                     .HasColumnType("varchar(50)")
-                    .HasCharSet("utf8")
-                    .HasCollation("utf8_general_ci");
+                    .HasCharSet("latin1")
+                    .HasCollation("latin1_swedish_ci");
 
                 entity.Property(e => e.SerieConsecutivo)
                     .HasColumnType("varchar(100)")
-                    .HasCharSet("utf8")
-                    .HasCollation("utf8_general_ci");
+                    .HasCharSet("latin1")
+                    .HasCollation("latin1_swedish_ci");
 
                 entity.Property(e => e.Tasa).HasColumnType("decimal(18,4)");
 
@@ -267,8 +267,8 @@ namespace SAVNI_CRM.Data.Models
 
                 entity.Property(e => e.MonedaPrincipal)
                     .HasColumnType("varchar(50)")
-                    .HasCharSet("utf8")
-                    .HasCollation("utf8_general_ci");
+                    .HasCharSet("latin1")
+                    .HasCollation("latin1_swedish_ci");
 
                 entity.HasOne(d => d.IdEmpresaNavigation)
                     .WithMany(p => p.Configuracion)
@@ -440,15 +440,15 @@ namespace SAVNI_CRM.Data.Models
 
                 entity.Property(e => e.Moneda)
                     .HasColumnType("varchar(20)")
-                    .HasCharSet("utf8")
-                    .HasCollation("utf8_general_ci");
+                    .HasCharSet("latin1")
+                    .HasCollation("latin1_swedish_ci");
 
                 entity.Property(e => e.Monto).HasColumnType("decimal(18,4)");
 
                 entity.Property(e => e.TipoPago)
                     .HasColumnType("varchar(20)")
-                    .HasCharSet("utf8")
-                    .HasCollation("utf8_general_ci");
+                    .HasCharSet("latin1")
+                    .HasCollation("latin1_swedish_ci");
 
                 entity.HasOne(d => d.IdFacturaNavigation)
                     .WithMany(p => p.Detallepagofactura)
@@ -478,8 +478,8 @@ namespace SAVNI_CRM.Data.Models
 
                 entity.Property(e => e.Consecutivo)
                     .HasColumnType("varchar(100)")
-                    .HasCharSet("utf8")
-                    .HasCollation("utf8_general_ci");
+                    .HasCharSet("latin1")
+                    .HasCollation("latin1_swedish_ci");
 
                 entity.Property(e => e.Fecha).HasColumnType("date");
 
@@ -489,18 +489,18 @@ namespace SAVNI_CRM.Data.Models
 
                 entity.Property(e => e.Motivo)
                     .HasColumnType("varchar(100)")
-                    .HasCharSet("utf8")
-                    .HasCollation("utf8_general_ci");
+                    .HasCharSet("latin1")
+                    .HasCollation("latin1_swedish_ci");
 
                 entity.Property(e => e.SerieConsecutivo)
                     .HasColumnType("varchar(100)")
-                    .HasCharSet("utf8")
-                    .HasCollation("utf8_general_ci");
+                    .HasCharSet("latin1")
+                    .HasCollation("latin1_swedish_ci");
 
                 entity.Property(e => e.Tipo)
                     .HasColumnType("varchar(20)")
-                    .HasCharSet("utf8")
-                    .HasCollation("utf8_general_ci");
+                    .HasCharSet("latin1")
+                    .HasCollation("latin1_swedish_ci");
 
                 entity.HasOne(d => d.IdCompraNavigation)
                     .WithMany(p => p.Devolucioncompra)
@@ -530,8 +530,8 @@ namespace SAVNI_CRM.Data.Models
 
                 entity.Property(e => e.Consecutivo)
                     .HasColumnType("varchar(100)")
-                    .HasCharSet("utf8")
-                    .HasCollation("utf8_general_ci");
+                    .HasCharSet("latin1")
+                    .HasCollation("latin1_swedish_ci");
 
                 entity.Property(e => e.Fecha).HasColumnType("date");
 
@@ -541,18 +541,18 @@ namespace SAVNI_CRM.Data.Models
 
                 entity.Property(e => e.Motivo)
                     .HasColumnType("varchar(200)")
-                    .HasCharSet("utf8")
-                    .HasCollation("utf8_general_ci");
+                    .HasCharSet("latin1")
+                    .HasCollation("latin1_swedish_ci");
 
                 entity.Property(e => e.SerieConsecutivo)
                     .HasColumnType("varchar(100)")
-                    .HasCharSet("utf8")
-                    .HasCollation("utf8_general_ci");
+                    .HasCharSet("latin1")
+                    .HasCollation("latin1_swedish_ci");
 
                 entity.Property(e => e.Tipo)
                     .HasColumnType("varchar(20)")
-                    .HasCharSet("utf8")
-                    .HasCollation("utf8_general_ci");
+                    .HasCharSet("latin1")
+                    .HasCollation("latin1_swedish_ci");
 
                 entity.HasOne(d => d.IdFacturaNavigation)
                     .WithMany(p => p.Devolucionfactura)
@@ -571,49 +571,45 @@ namespace SAVNI_CRM.Data.Models
                     .HasName("IdEmpleado")
                     .IsUnique();
 
-                entity.HasIndex(e => e.IdEmpresa)
-                    .HasName("IdEmpresa");
-
                 entity.Property(e => e.IdEmpleado).HasColumnType("int(11)");
 
                 entity.Property(e => e.Apellidos)
                     .HasColumnType("varchar(200)")
-                    .HasCharSet("utf8")
-                    .HasCollation("utf8_general_ci");
+                    .HasCharSet("latin1")
+                    .HasCollation("latin1_swedish_ci");
 
                 entity.Property(e => e.Cedula)
                     .HasColumnType("varchar(100)")
-                    .HasCharSet("utf8")
-                    .HasCollation("utf8_general_ci");
+                    .HasCharSet("latin1")
+                    .HasCollation("latin1_swedish_ci");
+
+                entity.Property(e => e.Codigo)
+                    .IsRequired()
+                    .HasColumnType("varchar(100)")
+                    .HasCharSet("latin1")
+                    .HasCollation("latin1_swedish_ci");
 
                 entity.Property(e => e.Correo)
                     .HasColumnType("varchar(100)")
-                    .HasCharSet("utf8")
-                    .HasCollation("utf8_general_ci");
+                    .HasCharSet("latin1")
+                    .HasCollation("latin1_swedish_ci");
 
                 entity.Property(e => e.Direccion)
                     .HasColumnType("varchar(200)")
-                    .HasCharSet("utf8")
-                    .HasCollation("utf8_general_ci");
+                    .HasCharSet("latin1")
+                    .HasCollation("latin1_swedish_ci");
 
                 entity.Property(e => e.Estado).HasColumnType("bit(1)");
 
-                entity.Property(e => e.IdEmpresa).HasColumnType("int(11)");
-
                 entity.Property(e => e.Nombres)
                     .HasColumnType("varchar(200)")
-                    .HasCharSet("utf8")
-                    .HasCollation("utf8_general_ci");
+                    .HasCharSet("latin1")
+                    .HasCollation("latin1_swedish_ci");
 
                 entity.Property(e => e.Telefono)
                     .HasColumnType("varchar(50)")
-                    .HasCharSet("utf8")
-                    .HasCollation("utf8_general_ci");
-
-                entity.HasOne(d => d.IdEmpresaNavigation)
-                    .WithMany(p => p.Empleado)
-                    .HasForeignKey(d => d.IdEmpresa)
-                    .HasConstraintName("empleado_ibfk_1");
+                    .HasCharSet("latin1")
+                    .HasCollation("latin1_swedish_ci");
             });
 
             modelBuilder.Entity<Empresa>(entity =>
@@ -631,28 +627,28 @@ namespace SAVNI_CRM.Data.Models
 
                 entity.Property(e => e.Correo)
                     .HasColumnType("varchar(100)")
-                    .HasCharSet("utf8")
-                    .HasCollation("utf8_general_ci");
+                    .HasCharSet("latin1")
+                    .HasCollation("latin1_swedish_ci");
 
                 entity.Property(e => e.Direccion)
                     .HasColumnType("varchar(2000)")
-                    .HasCharSet("utf8")
-                    .HasCollation("utf8_general_ci");
+                    .HasCharSet("latin1")
+                    .HasCollation("latin1_swedish_ci");
 
                 entity.Property(e => e.Nombre)
                     .HasColumnType("varchar(50)")
-                    .HasCharSet("utf8")
-                    .HasCollation("utf8_general_ci");
+                    .HasCharSet("latin1")
+                    .HasCollation("latin1_swedish_ci");
 
                 entity.Property(e => e.Ruc)
                     .HasColumnType("varchar(100)")
-                    .HasCharSet("utf8")
-                    .HasCollation("utf8_general_ci");
+                    .HasCharSet("latin1")
+                    .HasCollation("latin1_swedish_ci");
 
                 entity.Property(e => e.Telefono)
                     .HasColumnType("varchar(50)")
-                    .HasCharSet("utf8")
-                    .HasCollation("utf8_general_ci");
+                    .HasCharSet("latin1")
+                    .HasCollation("latin1_swedish_ci");
             });
 
             modelBuilder.Entity<Equivalenciaproducto>(entity =>
@@ -713,8 +709,8 @@ namespace SAVNI_CRM.Data.Models
 
                 entity.Property(e => e.Consecutivo)
                     .HasColumnType("varchar(100)")
-                    .HasCharSet("utf8")
-                    .HasCollation("utf8_general_ci");
+                    .HasCharSet("latin1")
+                    .HasCollation("latin1_swedish_ci");
 
                 entity.Property(e => e.Estado).HasColumnType("bit(1)");
 
@@ -730,18 +726,18 @@ namespace SAVNI_CRM.Data.Models
 
                 entity.Property(e => e.Moneda)
                     .HasColumnType("varchar(20)")
-                    .HasCharSet("utf8")
-                    .HasCollation("utf8_general_ci");
+                    .HasCharSet("latin1")
+                    .HasCollation("latin1_swedish_ci");
 
                 entity.Property(e => e.SerieConsecutivo)
                     .HasColumnType("varchar(100)")
-                    .HasCharSet("utf8")
-                    .HasCollation("utf8_general_ci");
+                    .HasCharSet("latin1")
+                    .HasCollation("latin1_swedish_ci");
 
                 entity.Property(e => e.TipoPago)
                     .HasColumnType("varchar(20)")
-                    .HasCharSet("utf8")
-                    .HasCollation("utf8_general_ci");
+                    .HasCharSet("latin1")
+                    .HasCollation("latin1_swedish_ci");
 
                 entity.HasOne(d => d.IdSucursalNavigation)
                     .WithMany(p => p.Factura)
@@ -782,8 +778,8 @@ namespace SAVNI_CRM.Data.Models
 
                 entity.Property(e => e.Movimiento)
                     .HasColumnType("varchar(200)")
-                    .HasCharSet("utf8")
-                    .HasCollation("utf8_general_ci");
+                    .HasCharSet("latin1")
+                    .HasCollation("latin1_swedish_ci");
             });
 
             modelBuilder.Entity<Listaaccesos>(entity =>
@@ -801,8 +797,8 @@ namespace SAVNI_CRM.Data.Models
 
                 entity.Property(e => e.NombreVista)
                     .HasColumnType("varchar(200)")
-                    .HasCharSet("utf8")
-                    .HasCollation("utf8_general_ci");
+                    .HasCharSet("latin1")
+                    .HasCollation("latin1_swedish_ci");
             });
 
             modelBuilder.Entity<Lote>(entity =>
@@ -884,8 +880,8 @@ namespace SAVNI_CRM.Data.Models
 
                 entity.Property(e => e.Nombre)
                     .HasColumnType("varchar(100)")
-                    .HasCharSet("utf8")
-                    .HasCollation("utf8_general_ci");
+                    .HasCharSet("latin1")
+                    .HasCollation("latin1_swedish_ci");
             });
 
             modelBuilder.Entity<Precioproducto>(entity =>
@@ -910,8 +906,8 @@ namespace SAVNI_CRM.Data.Models
 
                 entity.Property(e => e.Moneda)
                     .HasColumnType("varchar(20)")
-                    .HasCharSet("utf8")
-                    .HasCollation("utf8_general_ci");
+                    .HasCharSet("latin1")
+                    .HasCollation("latin1_swedish_ci");
 
                 entity.Property(e => e.PrecioMaximo).HasColumnType("decimal(18,4)");
 
@@ -919,8 +915,8 @@ namespace SAVNI_CRM.Data.Models
 
                 entity.Property(e => e.TipoValor)
                     .HasColumnType("varchar(20)")
-                    .HasCharSet("utf8")
-                    .HasCollation("utf8_general_ci");
+                    .HasCharSet("latin1")
+                    .HasCollation("latin1_swedish_ci");
 
                 entity.HasOne(d => d.IdProductoNavigation)
                     .WithMany(p => p.Precioproducto)
@@ -946,8 +942,8 @@ namespace SAVNI_CRM.Data.Models
 
                 entity.Property(e => e.Descripcion)
                     .HasColumnType("varchar(500)")
-                    .HasCharSet("utf8")
-                    .HasCollation("utf8_general_ci");
+                    .HasCharSet("latin1")
+                    .HasCollation("latin1_swedish_ci");
 
                 entity.Property(e => e.Estado).HasColumnType("bit(1)");
 
@@ -959,8 +955,8 @@ namespace SAVNI_CRM.Data.Models
 
                 entity.Property(e => e.Nombre)
                     .HasColumnType("varchar(200)")
-                    .HasCharSet("utf8")
-                    .HasCollation("utf8_general_ci");
+                    .HasCharSet("latin1")
+                    .HasCollation("latin1_swedish_ci");
 
                 entity.Property(e => e.TrabajaLote).HasColumnType("bit(1)");
 
@@ -986,36 +982,29 @@ namespace SAVNI_CRM.Data.Models
 
                 entity.Property(e => e.IdProveedor).HasColumnType("int(11)");
 
-                entity.Property(e => e.Consecutivo)
+                entity.Property(e => e.Codigo)
                     .HasColumnType("varchar(100)")
-                    .HasCharSet("utf8")
-                    .HasCollation("utf8_general_ci");
+                    .HasCharSet("latin1")
+                    .HasCollation("latin1_swedish_ci");
 
                 entity.Property(e => e.Direccion)
                     .HasColumnType("varchar(200)")
-                    .HasCharSet("utf8")
-                    .HasCollation("utf8_general_ci");
+                    .HasCharSet("latin1")
+                    .HasCollation("latin1_swedish_ci");
 
                 entity.Property(e => e.Estado).HasColumnType("bit(1)");
 
                 entity.Property(e => e.IdEmpresa).HasColumnType("int(11)");
 
-                entity.Property(e => e.IdSerie).HasColumnType("int(11)");
-
                 entity.Property(e => e.Nombre)
                     .HasColumnType("varchar(200)")
-                    .HasCharSet("utf8")
-                    .HasCollation("utf8_general_ci");
-
-                entity.Property(e => e.SerieConsecutivo)
-                    .HasColumnType("varchar(120)")
-                    .HasCharSet("utf8")
-                    .HasCollation("utf8_general_ci");
+                    .HasCharSet("latin1")
+                    .HasCollation("latin1_swedish_ci");
 
                 entity.Property(e => e.TipoProducto)
                     .HasColumnType("varchar(100)")
-                    .HasCharSet("utf8")
-                    .HasCollation("utf8_general_ci");
+                    .HasCharSet("latin1")
+                    .HasCollation("latin1_swedish_ci");
 
                 entity.HasOne(d => d.IdEmpresaNavigation)
                     .WithMany(p => p.Proveedor)
@@ -1041,8 +1030,8 @@ namespace SAVNI_CRM.Data.Models
 
                 entity.Property(e => e.Descripcion)
                     .HasColumnType("varchar(1000)")
-                    .HasCharSet("utf8")
-                    .HasCollation("utf8_general_ci");
+                    .HasCharSet("latin1")
+                    .HasCollation("latin1_swedish_ci");
 
                 entity.Property(e => e.Estado).HasColumnType("bit(1)");
 
@@ -1050,13 +1039,13 @@ namespace SAVNI_CRM.Data.Models
 
                 entity.Property(e => e.Nombre)
                     .HasColumnType("varchar(200)")
-                    .HasCharSet("utf8")
-                    .HasCollation("utf8_general_ci");
+                    .HasCharSet("latin1")
+                    .HasCollation("latin1_swedish_ci");
 
                 entity.Property(e => e.Telefono)
                     .HasColumnType("varchar(50)")
-                    .HasCharSet("utf8")
-                    .HasCollation("utf8_general_ci");
+                    .HasCharSet("latin1")
+                    .HasCollation("latin1_swedish_ci");
 
                 entity.HasOne(d => d.IdProveedorNavigation)
                     .WithMany(p => p.Proveedorcontacto)
@@ -1120,8 +1109,8 @@ namespace SAVNI_CRM.Data.Models
 
                 entity.Property(e => e.NombreRol)
                     .HasColumnType("varchar(50)")
-                    .HasCharSet("utf8")
-                    .HasCollation("utf8_general_ci");
+                    .HasCharSet("latin1")
+                    .HasCollation("latin1_swedish_ci");
 
                 entity.HasOne(d => d.IdEmpresaNavigation)
                     .WithMany(p => p.Roles)
@@ -1149,15 +1138,15 @@ namespace SAVNI_CRM.Data.Models
 
                 entity.Property(e => e.NombreDocumento)
                     .HasColumnType("varchar(200)")
-                    .HasCharSet("utf8")
-                    .HasCollation("utf8_general_ci");
+                    .HasCharSet("latin1")
+                    .HasCollation("latin1_swedish_ci");
 
                 entity.Property(e => e.NumConsecutivo).HasColumnType("int(11)");
 
                 entity.Property(e => e.Prefijo)
                     .HasColumnType("varchar(50)")
-                    .HasCharSet("utf8")
-                    .HasCollation("utf8_general_ci");
+                    .HasCharSet("latin1")
+                    .HasCollation("latin1_swedish_ci");
 
                 entity.HasOne(d => d.IdSucursalNavigation)
                     .WithMany(p => p.Serie)
@@ -1183,13 +1172,13 @@ namespace SAVNI_CRM.Data.Models
 
                 entity.Property(e => e.Correo)
                     .HasColumnType("varchar(100)")
-                    .HasCharSet("utf8")
-                    .HasCollation("utf8_general_ci");
+                    .HasCharSet("latin1")
+                    .HasCollation("latin1_swedish_ci");
 
                 entity.Property(e => e.Direccion)
                     .HasColumnType("varchar(200)")
-                    .HasCharSet("utf8")
-                    .HasCollation("utf8_general_ci");
+                    .HasCharSet("latin1")
+                    .HasCollation("latin1_swedish_ci");
 
                 entity.Property(e => e.IdEmpresa).HasColumnType("int(11)");
 
@@ -1197,13 +1186,13 @@ namespace SAVNI_CRM.Data.Models
 
                 entity.Property(e => e.Nombre)
                     .HasColumnType("varchar(200)")
-                    .HasCharSet("utf8")
-                    .HasCollation("utf8_general_ci");
+                    .HasCharSet("latin1")
+                    .HasCollation("latin1_swedish_ci");
 
                 entity.Property(e => e.Telefono)
                     .HasColumnType("varchar(50)")
-                    .HasCharSet("utf8")
-                    .HasCollation("utf8_general_ci");
+                    .HasCharSet("latin1")
+                    .HasCollation("latin1_swedish_ci");
 
                 entity.HasOne(d => d.IdEmpresaNavigation)
                     .WithMany(p => p.Sucursal)
@@ -1267,8 +1256,8 @@ namespace SAVNI_CRM.Data.Models
 
                 entity.Property(e => e.Tamanio)
                     .HasColumnType("varchar(20)")
-                    .HasCharSet("utf8")
-                    .HasCollation("utf8_general_ci");
+                    .HasCharSet("latin1")
+                    .HasCollation("latin1_swedish_ci");
 
                 entity.HasOne(d => d.IdTipoNavigation)
                     .WithMany(p => p.Talla)
@@ -1293,8 +1282,8 @@ namespace SAVNI_CRM.Data.Models
 
                 entity.Property(e => e.Moneda)
                     .HasColumnType("varchar(50)")
-                    .HasCharSet("utf8")
-                    .HasCollation("utf8_general_ci");
+                    .HasCharSet("latin1")
+                    .HasCollation("latin1_swedish_ci");
 
                 entity.Property(e => e.Monto).HasColumnType("decimal(18,4)");
             });
@@ -1314,8 +1303,8 @@ namespace SAVNI_CRM.Data.Models
 
                 entity.Property(e => e.NombreTipo)
                     .HasColumnType("varchar(100)")
-                    .HasCharSet("utf8")
-                    .HasCollation("utf8_general_ci");
+                    .HasCharSet("latin1")
+                    .HasCollation("latin1_swedish_ci");
             });
 
             modelBuilder.Entity<Unidadmedida>(entity =>
@@ -1333,8 +1322,8 @@ namespace SAVNI_CRM.Data.Models
 
                 entity.Property(e => e.Nombre)
                     .HasColumnType("varchar(200)")
-                    .HasCharSet("utf8")
-                    .HasCollation("utf8_general_ci");
+                    .HasCharSet("latin1")
+                    .HasCollation("latin1_swedish_ci");
             });
 
             modelBuilder.Entity<Usuario>(entity =>
@@ -1358,8 +1347,8 @@ namespace SAVNI_CRM.Data.Models
 
                 entity.Property(e => e.Contrasenia)
                     .HasColumnType("varchar(50)")
-                    .HasCharSet("utf8")
-                    .HasCollation("utf8_general_ci");
+                    .HasCharSet("latin1")
+                    .HasCollation("latin1_swedish_ci");
 
                 entity.Property(e => e.Estado).HasColumnType("bit(1)");
 
@@ -1369,8 +1358,8 @@ namespace SAVNI_CRM.Data.Models
 
                 entity.Property(e => e.NombreUsuario)
                     .HasColumnType("varchar(50)")
-                    .HasCharSet("utf8")
-                    .HasCollation("utf8_general_ci");
+                    .HasCharSet("latin1")
+                    .HasCollation("latin1_swedish_ci");
 
                 entity.HasOne(d => d.IdEmpleadoNavigation)
                     .WithMany(p => p.Usuario)

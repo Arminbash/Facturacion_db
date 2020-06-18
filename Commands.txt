@@ -1,1 +1,8 @@
+Para generar por primera vez
+
 Scaffold-DbContext "Server=localhost;Database=savni;user id=sa;password=123;" Pomelo.EntityFrameworkCore.MySql -OutputDir Models
+
+Si hay modificación en la base de datos se actualiza en 
+el proyecto con -Force
+
+Scaffold-DbContext "Server=localhost;Database=savni;user id=sa;password=savni123;" Pomelo.EntityFrameworkCore.MySql -OutputDir Models -Force

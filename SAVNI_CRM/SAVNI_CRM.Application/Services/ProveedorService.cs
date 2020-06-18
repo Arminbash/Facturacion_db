@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq;
 using SAVNI_CRM.Application.AutoMapper;
 using SAVNI_CRM.Application.IServices;
 using SAVNI_CRM.Data.IBase;
@@ -34,7 +35,7 @@ namespace SAVNI_CRM.Application.Services
         {
             using (UnitOfWork unitOfWork = new UnitOfWork(_db))
             {
-                return unitOfWork.ProveedorRepository.GetEntities(filter: x => x.Estado == 1);
+                return unitOfWork.ProveedorRepository.GetEntities(filter: x => x.Estado == 1).ToList();
             }
         }
 
@@ -75,5 +76,14 @@ namespace SAVNI_CRM.Application.Services
         {
             throw new System.NotImplementedException();
         }
+
+        public Proveedor getProveedorByNombre(string _Nombre)
+        {
+            using (UnitOfWork unitOfWork = new UnitOfWork(_db))
+            {
+                return unitOfWork.ProveedorRepository.GetEntities(filter: x => x.Nombre == _Nombre).FirstOrDefault();
+            }
+        }
+
     }
 }

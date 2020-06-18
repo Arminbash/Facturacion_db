@@ -63,13 +63,22 @@ namespace SAVNI_CRM.API.Controllers
         [ProducesResponseType(StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public IActionResult Save([FromBody] EmpresaViewModel empViewModel)
-        {         
+        {
             try
             {
                 if (ModelState.IsValid)
                 {
-                    var emp = MapperHelper<EmpresaViewModel, Empresa>.ObjectTo(empViewModel);                                   
-                    _serv.Save(emp);
+                    var emp = MapperHelper<EmpresaViewModel, Empresa>.ObjectTo(empViewModel);
+                    var validarEmpresa = _serv.getEmpresaByNombre(emp.Nombre);
+                    if (validarEmpresa == null)
+                    {
+                        _serv.Save(emp);
+                    }
+                    else
+                    {
+                        return BadRequest("Ya existe una empresa con ese nombre");
+                    }
+
                 }
             }
            catch(Exception ex)
